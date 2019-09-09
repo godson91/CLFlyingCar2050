@@ -2,11 +2,13 @@
   "name": "clreactstrap-project1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/godson91/CLFlyingCar2050",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "faker": "^4.1.0",
+    "gh-pages": "^2.1.1",
     "lodash": "^4.17.15",
     "numeral": "^2.0.6",
     "react": "^16.9.0",
@@ -17,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
