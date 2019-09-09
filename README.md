@@ -1,3 +1,12 @@
+Copy the generate.js file and in Node.js execute command json-server --port 3001 generate.js
+to test the CLFlyingCar2050 
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
